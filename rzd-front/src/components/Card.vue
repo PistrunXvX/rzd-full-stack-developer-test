@@ -34,13 +34,12 @@ import { computed, onMounted, ref } from 'vue';
             month: "short",
             year: "numeric"
         });
-    }
+    };
 </script>
 
 <template>
   <v-card
     class="mx-auto"
-    max-width="344"
     outlined
   >
     <v-list-item three-line>
